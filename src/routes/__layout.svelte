@@ -1,6 +1,9 @@
 <script>
     import style from "../styles/style.css"
 </script>
+<svelte:head>
+    <script src="https://kit.fontawesome.com/d56cca5806.js" crossorigin="anonymous"></script>
+</svelte:head>
 <header class="container">
     <div class="left">
         <a href="/">
@@ -18,3 +21,12 @@
     </nav>
 </header>
 <slot></slot>
+<footer>
+    <h4>©HotBeans {new Date().getFullYear()}</h4>
+    <div class="socials">
+        <a href="https://godfatherof.nl/kremvax.html"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/elliot-revere-97209b20a/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://nymag.com/news/features/east-ramapo-hasidim-2013-4/"><i class="fa-brands fa-instagram-square"></i></a>
+        <a href="https://bit.ly/IqT6zt"><i class="fa-brands fa-twitter-square"></i></a>
+    </div>
+</footer>

@@ -11,6 +11,9 @@
 .bold {
     font-weight: bold;
 }
+.wrapper {
+    min-height: calc(100vh - 227px);
+}
 .container {
     width: 80%;
     margin: auto;
@@ -85,8 +88,7 @@ header {
     justify-content: space-evenly;
     max-width: 1400px;
     margin: auto;
-    margin-top: 2rem;
-    
+    margin-top: 4rem;
     .card {
         background-color: #c01919;
         border-radius: 20px;
@@ -113,4 +115,70 @@ header {
 }
 #map {
     height: 360px;
+    margin-top: 2rem;
+}
+.course__cards {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    a {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        text-decoration: none;
+        .course__card {
+            background-color: #7b441b;
+            border-radius: 20px;
+            text-align: center;
+            padding: 1.5rem;
+            img {
+                width: 200px;
+                // border-radius: 1000px;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                padding: 1rem;
+            }
+            h3, p {
+                color: #ffffff;
+                max-width: 140px;
+                margin: auto;
+                padding: 0.5rem 0;
+            }
+            
+        } 
+        
+    }
+    a:nth-child(2) {
+        .course__card {
+            background-color: #97511b;
+        }
+    }
+    a:nth-child(3) {
+        .course__card {
+            background-color: #bd5e16;
+        }
+    }
+}
+.address-socials {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+footer {
+    text-align: center;
+
+    padding: 2rem;
+    color: #ffffff;
+    background-color: #5f3413;
+    .socials {
+        a {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin: 0 0.2rem;
+        }
+    }
 }

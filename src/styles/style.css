@@ -15,6 +15,10 @@
   font-weight: bold;
 }
 
+.wrapper {
+  min-height: calc(100vh - 227px);
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -125,7 +129,7 @@ header nav ul li ~ li {
           justify-content: space-evenly;
   max-width: 1400px;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .cards .card {
@@ -155,5 +159,85 @@ header nav ul li ~ li {
 
 #map {
   height: 360px;
+  margin-top: 2rem;
+}
+
+.course__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.course__cards a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+}
+
+.course__cards a .course__card {
+  background-color: #7b441b;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.course__cards a .course__card img {
+  width: 200px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 1rem;
+}
+
+.course__cards a .course__card h3, .course__cards a .course__card p {
+  color: #ffffff;
+  max-width: 140px;
+  margin: auto;
+  padding: 0.5rem 0;
+}
+
+.course__cards a:nth-child(2) .course__card {
+  background-color: #97511b;
+}
+
+.course__cards a:nth-child(3) .course__card {
+  background-color: #bd5e16;
+}
+
+.address-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #ffffff;
+  background-color: #5f3413;
+}
+
+footer .socials a {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0 0.2rem;
 }
 /*# sourceMappingURL=style.css.map */
