@@ -273,6 +273,77 @@ header nav ul li ~ li {
   border-radius: 1000px;
 }
 
+.indiv-jobs .job {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 1600px;
+  margin: 1rem auto;
+}
+
+.indiv-jobs .job .text {
+  width: 50%;
+}
+
+.indiv-jobs .job .text h2 ~ h2 {
+  margin-top: 1.5rem;
+}
+
+.indiv-jobs .job .text p {
+  max-width: 600px;
+}
+
+.indiv-jobs .job .text .apply {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.indiv-jobs .job .text .apply a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7b441b;
+  padding: 1rem;
+  border-radius: 100px;
+}
+
+.indiv-jobs .job img {
+  width: 500px;
+}
+
+.indiv-jobs .job:last-child {
+  margin-bottom: 3rem;
+}
+
+.success {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 20vh;
+}
+
+.success .text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.success img {
+  width: 300px;
+}
+
 footer {
   text-align: center;
   padding: 2rem;
@@ -284,5 +355,21 @@ footer .socials a {
   font-size: 1.5rem;
   color: #ffffff;
   margin: 0 0.2rem;
+}
+
+@media screen and (max-width: 890px) {
+  .left-right {
+    display: block;
+    text-align: center;
+  }
+  .left-right p {
+    margin: 2rem auto;
+  }
+  .left-right img {
+    margin: auto;
+  }
+  .left-right img:nth-child(1) {
+    padding-left: 2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

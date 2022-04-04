@@ -204,6 +204,59 @@ header {
         }
     }
 }
+.indiv-jobs {
+    
+    .job {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 1600px;
+        margin: 1rem auto;
+        .text {
+            width: 50%;
+            h2 ~ h2 {
+                margin-top: 1.5rem;
+            }
+            p {
+                max-width: 600px;
+            }
+            .apply {
+                margin-top: 2rem;
+                
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    background-color: #7b441b;
+                    padding: 1rem;
+                    border-radius: 100px;
+
+                }
+            }
+        }
+        img {
+            width: 500px;
+        }
+    }
+    .job:last-child {
+        margin-bottom: 3rem;
+    }
+}
+.success {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    // margin: 5vh auto auto auto;
+    margin: auto;
+    padding-top: 20vh;
+    .text {
+        align-items: center;
+    }
+    img {
+        width: 300px;
+    }
+}
 footer {
     text-align: center;
 
@@ -218,3 +271,18 @@ footer {
         }
     }
 }
+@media screen and (max-width: 890px) {
+    .left-right {
+        display: block;
+        text-align: center;
+        p {
+            margin: 2rem auto;
+        }
+        img {
+            margin: auto;
+        }
+        img:nth-child(1) {
+            padding-left: 2rem;
+        }
+    }
+  }
