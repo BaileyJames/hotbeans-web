@@ -168,6 +168,42 @@ header {
     max-width: 600px;
     margin: 1rem auto;
 }
+.jobs {
+    // background-color: #882424;
+    // color: #ffffff;
+    .job-cards {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        flex-grow: 0;
+        flex-wrap: wrap;
+        max-width: 1500px;
+        .job-card {
+
+            text-align: center;
+            max-width: 19rem;
+            padding: 1rem;
+            margin: 3rem;
+            img {
+                width: 140px;
+            }
+            .info {
+                min-height: 88px;
+            }
+            .more-info {
+                margin-top: 2rem;
+                a {
+                    color: #ffffff;
+                    background-color: #5f3413;
+                    text-decoration: none;
+                    padding: 0.75rem;
+                    border-radius: 1000px;
+                    // margin-top: 2rem;
+                }
+            }
+        }
+    }
+}
 footer {
     text-align: center;
 
