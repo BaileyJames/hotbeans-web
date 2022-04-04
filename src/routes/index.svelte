@@ -66,7 +66,9 @@
     import {leaflet} from "../scripts/leaflet.js"
 
     onMount(() => {
-        leaflet() 
+        setTimeout(()  => {
+            leaflet() 
+        }, 1000)
     })
 
 </script>
