@@ -85,7 +85,7 @@
                         <h2>System Administrator</h2>
                         <p>As a system administrator, you are responsible for ensuring our services are reliable. This means performing maintenance on critical systems and staying in the loop on current events to ensure we're not prone to cyber attacks.</p>
                         <h2>Salary</h2>
-                        <p>£40,000 - £90,000 depending on skill level.</p>
+                        <p>£35,000 - £45,000 depending on skill level.</p>
                         <p class="apply"><a href="/apply">Apply Now</a></p>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                         <h2>Business Analyst</h2>
                         <p>As a Business Analyst, it is your role to perform research into our clients to ensure that our solutions are feasible and have a purposeful use. At HotBeans, we care about our clients and want to make sure we're giving them what's best for their businesses.</p>
                         <h2>Salary</h2>
-                        <p>£40,000 - £90,000 depending on skill level.</p>
+                        <p>£40,000 - £50,000 depending on skill level.</p>
                         <p class="apply"><a href="/apply">Apply Now</a></p>
                     </div>
                 </div>
