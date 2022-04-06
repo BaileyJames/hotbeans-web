@@ -254,6 +254,8 @@ header {
         label {
             display: block;
             margin-left: 0.5rem;
+            max-width: 10rem;
+            margin-top: 0.25rem;
         }
         p {
             cursor: pointer;
@@ -265,9 +267,26 @@ header {
             // display: inline-block;
             margin-top: 1rem;
         }
+        h5 {
+            max-width: 10rem;
+            text-align: center;
+            margin-top: 0.5rem;
+        }
         input {
             display: inline-block;
             margin-left: 0.25rem;
+        }
+        .options {
+            display: flex;
+            justify-content: space-evenly;
+            p {
+                padding: 0.6rem 1rem;
+                border-radius: 1000px;
+                border: 3px solid #5f3413;
+            }
+        }
+        .selected {
+            background-color: #7b441b;
         }
         .submit-button {
             display: inline-block;

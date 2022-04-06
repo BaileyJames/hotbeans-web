@@ -2,11 +2,12 @@
     import {onMount} from "svelte"
     let step = 1
     let questiontype = ["Contact details", "Position details", "About you"]
-    onMount(() => {
-        // let form2 = document.getElementById("details2")
-        // form2.classList.add("disappear")
+
+    let buttonToggle = ((button) => {
+        console.log(button)
+        let option = document.getElementById("option"+button)
+        option.classList.toggle("selected")
     })
-    
 </script>
 <div class="wrapper container">
     <div class="section">
@@ -31,10 +32,22 @@
                     <div id="details2" class="disappear">
                         <label for="job-role">Job role:</label>
                         <input type="text" required>
+                        <label for="hours">Full time or part time?</label>
+                        <input type="text" required>
+                        <label for="job-role">Are you able to perform the required functions for the job role?</label>
+                        <div class="options">
+                            <p id="option1"   on:click={() => {buttonToggle(1)}}>✓</p>
+                            <p id="option2"   on:click={() => {buttonToggle(2)}}>&#10799</p>
+                        </div>
                     </div>
                     <div id="details3" class="disappear">
-                        <label for="job-role">Why you:</label>
+                        <label for="job-role">Skills related to the role:</label>
                         <input type="text" required>
+                        <label for="job-role">What makes you stand out?</label>
+                        <input type="text" required>
+                        <label for="job-role">Areas of highest proficiency</label>
+                        <input type="text" required>
+                        <h5>Please note all fields are required</h5>
                     </div>
                     <p type="submit" id="submit-button" on:click={() => {
                         if(step < 3) {
@@ -50,13 +63,13 @@
                                 form2.classList.add("disappear")
                                 document.getElementById("submit-button")
     
-                                let newDiv = document.createElement("input")
-                            let newContent = document.createTextNode("hello")
-                            newDiv.appendChild(newContent)
-                            newDiv.setAttribute("type", "submit")
-                            newDiv.setAttribute("class", "submit-button")
-                            document.getElementById("form").appendChild(newDiv)
-                            document.getElementById("submit-button").classList.add("disappear")
+                                let newInp = document.createElement("input")
+                                let newContent = document.createTextNode("hello")
+                                newInp.appendChild(newContent)
+                                newInp.setAttribute("type", "submit")
+                                newInp.setAttribute("class", "submit-button")
+                                document.getElementById("form").appendChild(newInp)
+                                document.getElementById("submit-button").classList.add("disappear")
                             }
                         } 
                         

@@ -328,6 +328,8 @@ header nav ul li ~ li {
 .form form label {
   display: block;
   margin-left: 0.5rem;
+  max-width: 10rem;
+  margin-top: 0.25rem;
 }
 
 .form form p {
@@ -340,9 +342,34 @@ header nav ul li ~ li {
   margin-top: 1rem;
 }
 
+.form form h5 {
+  max-width: 10rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
 .form form input {
   display: inline-block;
   margin-left: 0.25rem;
+}
+
+.form form .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.form form .options p {
+  padding: 0.6rem 1rem;
+  border-radius: 1000px;
+  border: 3px solid #5f3413;
+}
+
+.form form .selected {
+  background-color: #7b441b;
 }
 
 .form form .submit-button {
