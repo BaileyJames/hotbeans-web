@@ -1,5 +1,14 @@
 <script>
+import { toggle_class } from "svelte/internal";
+
     import style from "../styles/style.css"
+
+    let open = false
+
+    // setTimeout(() => {
+    //     open = true
+    // }, 1000)
+
 </script>
 <svelte:head>
     <script src="https://kit.fontawesome.com/d56cca5806.js" crossorigin="anonymous"></script>
@@ -11,7 +20,10 @@
             <h1>HotBeans</h1>
         </a>
     </div>
-    <nav>
+    <div class="burger">
+        <img src="menu.svg" on:click={() => {open = !open}} alt="menu">
+    </div>
+    <nav id={open? "open": "closed"}>
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/jobs">Jobs</a></li>

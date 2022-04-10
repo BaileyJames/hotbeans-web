@@ -15,7 +15,7 @@
             <img src="development2.png" alt="web developers">
         </div>
         <div class="left-right">
-            <img src="customer.svg" alt="we take customers input seriously" style="width: 500px;">
+            <img src="customer.svg" alt="we take customers input seriously">
             <p>We work closely with our clients and take their input seriously, as we pride ourselves in ensuring complete customer satisfaction. At HotBeans, our clients work <span class="italic">with</span> us, constantly providing their perspective to ensure that we meet <span class="bold">all</span> their needs. </p>
         </div>
     </div>
@@ -37,6 +37,27 @@
                 <img src="remote.svg" alt="casual environment">
                 <h3>Remote working</h3>
                 <p>Work from your happy place, without leaving the door</p>
+            </div>
+        </div>
+    </div>
+    <div class="meet-the-team container section">
+        <h1 class="center">Meet the team</h1>
+        <h3 class="center">Get to understand us a little better</h3>
+        <div class="members">
+            <div class="member">
+                <img src="fullstack.svg" alt="managing director" />
+                <h3>Mark Jones</h3>
+                <h4>Fullstack Developer</h4>
+            </div>
+            <div class="member">
+                <img src="director.svg" alt="managing director" />
+                <h3>John Folks</h3>
+                <h4>Managing Director</h4>
+            </div>
+            <div class="member">
+                <img src="designer.svg" alt="managing director" />
+                <h3>Anne McDonald</h3>
+                <h4>Web Designer</h4>
             </div>
         </div>
     </div>

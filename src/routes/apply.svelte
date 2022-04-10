@@ -13,7 +13,7 @@
     <div class="section">
         <h1 class="center">Application</h1>
         <h3 class="center">So, you think you've got what it takes?</h3>
-        <div class="section flex">
+        <div class="section flex apply">
             <div class="form">
                 <h3>Step {step} of 3</h3>
                 <h2>{questiontype[step - 1]}</h2>

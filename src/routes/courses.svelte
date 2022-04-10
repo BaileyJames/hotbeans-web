@@ -3,7 +3,7 @@
         <h1>Courses</h1>
         <h3>Do you lack the skills or experience required to apply for a job with us?</h3>
     </div>
-    <div class="section">
+    <div class="section courses">
         <h1 class="center">Courses we recommend</h1>
         <div class="course__cards">
             <a href="https://www.codecademy.com/learn/paths/learn-how-to-build-websites">
