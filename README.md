@@ -26,4 +26,4 @@ You can preview the production build with `npm run preview`.
 
 ## Viewing
 
-You can also view this site live, at https://baileyj.tech/hotbeans
+You can also view this site live, at https://hotbeans.baileyj.tech
